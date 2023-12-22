@@ -33,5 +33,5 @@ jobs:
         with:
           java-version: '17'
           distribution: 'corretto'
-
+      - run: chmod +x ./gradlew
       - run: ./gradlew test
